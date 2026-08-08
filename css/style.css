@@ -310,12 +310,20 @@ ul {
 
 .hamburger {
   display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: var(--deep-navy);
+  background: var(--saffron-light);
+  border: 1.5px solid rgba(255, 107, 0, 0.4);
+  border-radius: 8px;
+  font-size: 1.35rem;
+  color: var(--primary-saffron);
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  transition: var(--transition);
+  z-index: 1001;
+}
+
+.hamburger:hover, .hamburger:focus {
+  background: var(--primary-saffron);
+  color: #FFFFFF;
 }
 
 /* Mobile Nav Modal */
@@ -347,7 +355,11 @@ ul {
     padding-bottom: 0.75rem;
   }
 
-  .hamburger { display: block; }
+  .hamburger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
   .nav-cta .btn { display: none; }
 }
 
