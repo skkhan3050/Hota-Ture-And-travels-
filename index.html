@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hota Tour & Travels | Trusted Puri Travel Agency & Jagannath Temple Darshan Assistance</title>
+  <meta name="description" content="Hota Tour & Travels is a trusted Puri-based travel agency offering customized Puri tour packages, Jagannath Temple Darshan assistance, Odisha travel packages, cab bookings & hotel arrangements with 20+ years of local expertise.">
+  <meta name="keywords" content="Puri tour packages, Jagannath Temple Darshan assistance, Puri travel agency, Odisha tour packages, Puri cab booking, Puri tour operator">
+  <link rel="canonical" href="https://hotatourtravels.com/">
+
+  <!-- FontAwesome & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "Hota Tour & Travels",
+    "image": "https://hotatourtravels.com/images/logo.png",
+    "@id": "https://hotatourtravels.com/#organization",
+    "url": "https://hotatourtravels.com",
+    "telephone": "+91-7873369103",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Near Shree Jagannath Temple",
+      "addressLocality": "Puri",
+      "addressRegion": "Odisha",
+      "postalCode": "752001",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Bar Header -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-info">
+        <div class="topbar-info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Operating Office Near Shree Jagannath Temple, Puri, Odisha</span>
+        </div>
+        <div class="topbar-info-item">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+917873369103">+91-7873369103</a> / <a href="tel:+918917642842">+91-8917642842</a>
+        </div>
+      </div>
+      <div class="topbar-info">
+        <span class="topbar-badge"><i class="fas fa-award"></i> 20+ Years Local Expertise</span>
+        <span class="topbar-badge"><i class="fas fa-users"></i> 1 Lakh+ Happy Visitors</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header — Image 1 Exact Menu Layout -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 0.5rem;">
+        <img src="images/logo.png" alt="Hota Tour & Travels Logo" style="height: 54px; width: auto; object-fit: contain;">
+      </a>
+
+      <!-- EXACT MENU LIKE IMAGE 1 -->
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="puri-packages.html" class="nav-link">Packages</a>
+        <a href="services.html" class="nav-link">Our Service</a>
+        <a href="contact.html" class="nav-link">Contact us</a>
+        <a href="reviews.html" class="nav-link">Customer Review</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="explore-puri.html" class="nav-link">Explore Puri</a>
+      </nav>
+
+      <div class="nav-cta">
+        <button type="button" onclick="openPlanTripModal(event)" class="btn btn-primary btn-sm btn-plan-trip"><i class="fas fa-calendar-check"></i> Plan Your Puri Trip</button>
+        <button class="hamburger" id="hamburgerToggle" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay-shapes"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text-content">
+          <div class="hero-badge">
+            <i class="fas fa-gopuram"></i> Shree Jagannath Dham Puri Tourism Specialists
+          </div>
+          <h1 class="hero-title">Your Trusted Local Travel Partner in <span>Puri, Odisha</span></h1>
+          <p class="hero-subtitle">Experience seamless Jagannath Temple Darshan assistance, customized Puri tour packages, hotel bookings, local cab transfers, and comprehensive Odisha travel services crafted with 20+ years of trusted local expertise.</p>
+          
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button type="button" onclick="openPlanTripModal(event)" class="btn btn-primary btn-plan-trip"><i class="fas fa-paper-plane"></i> Plan Your Puri Trip</button>
+            <a href="darshan.html" class="btn btn-outline" style="color: #FFF; border-color: #FFF;"><i class="fas fa-hands-praying"></i> Temple Darshan Guide</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <h3>20+ Years</h3>
+              <p>Temple Darshan & Travel Experience</p>
+            </div>
+            <div class="hero-stat-item">
+              <h3>1 Lakh+</h3>
+              <p>Happy Visitors & Pilgrims</p>
+            </div>
+            <div class="hero-stat-item">
+              <h3>Puri Local</h3>
+              <p>Operating Office Close to Temple</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <h3>Quick Tour Enquiry</h3>
+            <p>Get personalized guidance & travel quote in 30 minutes</p>
+          </div>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" name="phone" class="form-control" placeholder="Mobile number" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Travel Date</label>
+                <input type="date" name="travel_date" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Select Service / Tour</label>
+              <select name="service" class="form-control">
+                <option value="Jagannath Temple Darshan Assistance">Jagannath Temple Darshan Assistance</option>
+                <option value="Customized Tour Packages">Customized Tour Packages</option>
+                <option value="Hotel Booking">Hotel Booking</option>
+                <option value="Cab & Taxi Booking">Cab & Taxi Booking</option>
+                <option value="Professional Tour Guides">Professional Tour Guides</option>
+                <option value="Mahaprasad Arrangements">Mahaprasad Arrangements</option>
+                <option value="Airport Transfers">Airport Transfers</option>
+                <option value="Railway Station Transfers">Railway Station Transfers</option>
+                <option value="Local Sightseeing">Local Sightseeing</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+              <i class="fas fa-paper-plane"></i> Get Free Tour Quote
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction & positioning -->
+  <section class="section-padding bg-cream">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-compass"></i> Welcome to Hota Tour & Travels</span>
+        <h2 class="section-title">Authentic Local Hospitality & Professional <span>Odisha Tourism Services</span></h2>
+        <p class="section-desc">Hota Tour & Travels is a premier Puri-based tour operator committed to making your spiritual journey and leisure vacation smooth, comfortable, and memorable.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-gopuram"></i></div>
+          <h3 class="feature-title">20+ Years Temple Assistance</h3>
+          <p class="feature-desc">Decades of practical local expertise guiding devotees through sacred Puri temple customs, Mahaprasad arrangements, and local rituals.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+          <h3 class="feature-title">Convenient Local Office</h3>
+          <p class="feature-desc">Our operating office is situated conveniently close to Shree Jagannath Temple in Puri for direct, on-ground visitor assistance.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-user-check"></i></div>
+          <h3 class="feature-title">1 Lakh+ Happy Visitors</h3>
+          <p class="feature-desc">Trusted by families, senior citizen pilgrims, and tour groups from across India and abroad for transparent local coordination.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-car-side"></i></div>
+          <h3 class="feature-title">Complete Travel Solutions</h3>
+          <p class="feature-desc">From hotel bookings and clean cab transfers to licensed tour guides and ticketing support, we handle every detail of your trip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 Core Travel Services Grid (Image 2 Replica with Photos & Hover Effects) -->
+  <section class="section-padding" style="background: #FFFFFF;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-concierge-bell"></i> Our Premier Travel Services</span>
+        <h2 class="section-title">Explore Our <span>Specialized Travel Services</span></h2>
+        <p class="section-desc">Puri Jagannath Temple Darshan guidance, tour packages, hotels, taxis, tour guides, Mahaprasad, airport transfers, and local sightseeing.</p>
+      </div>
+
+      <div class="services-pdf-grid">
+        <!-- 1. Jagannath Temple Darshan Assistance -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-orange">
+            <i class="fas fa-gopuram"></i>
+          </div>
+          <h3 class="pdf-service-title">JAGANNATH TEMPLE DARSHAN ASSISTANCE</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_darshan.jpg" alt="Jagannath Temple Darshan Assistance">
+          </div>
+          <p class="pdf-service-desc">Hassle-free darshan with proper guidance and support.</p>
+        </div>
+
+        <!-- 2. Customized Tour Packages -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-blue">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="pdf-service-title">CUSTOMIZED TOUR PACKAGES</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_tour.jpg" alt="Customized Tour Packages">
+          </div>
+          <p class="pdf-service-desc">Personalized packages for family, group, couples and pilgrimage tours.</p>
+        </div>
+
+        <!-- 3. Hotel Booking -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-green">
+            <i class="fas fa-hotel"></i>
+          </div>
+          <h3 class="pdf-service-title">HOTEL BOOKING</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_hotel.jpg" alt="Hotel Booking">
+          </div>
+          <p class="pdf-service-desc">Comfortable hotels and resorts at the best prices.</p>
+        </div>
+
+        <!-- 4. Cab & Taxi Booking -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-teal">
+            <i class="fas fa-car"></i>
+          </div>
+          <h3 class="pdf-service-title">CAB & TAXI BOOKING</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_cab.jpg" alt="Cab & Taxi Booking">
+          </div>
+          <p class="pdf-service-desc">Well-maintained vehicles for local & outstation travel.</p>
+        </div>
+
+        <!-- 5. Professional Tour Guides -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-purple">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3 class="pdf-service-title">PROFESSIONAL TOUR GUIDES</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_guide.jpg" alt="Professional Tour Guides">
+          </div>
+          <p class="pdf-service-desc">Experienced & friendly guides for a better travel experience.</p>
+        </div>
+
+        <!-- 6. Mahaprasad Arrangements -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-gold">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h3 class="pdf-service-title">MAHAPRASAD ARRANGEMENTS</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_mahaprasad.jpg" alt="Mahaprasad Arrangements">
+          </div>
+          <p class="pdf-service-desc">Authentic Mahaprasad booking with proper arrangements.</p>
+        </div>
+
+        <!-- 7. Airport Transfers -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-lightblue">
+            <i class="fas fa-plane-departure"></i>
+          </div>
+          <h3 class="pdf-service-title">AIRPORT TRANSFERS</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_airport.jpg" alt="Airport Transfers">
+          </div>
+          <p class="pdf-service-desc">Punctual pick-up & drop services to/from Bhubaneswar Airport.</p>
+        </div>
+
+        <!-- 8. Railway Station Transfers -->
+        <div class="pdf-service-card hover-effect">
+          <div class="pdf-icon-circle icon-violet">
+            <i class="fas fa-train"></i>
+          </div>
+          <h3 class="pdf-service-title">RAILWAY STATION TRANSFERS</h3>
+          <div class="pdf-photo-wrapper">
+            <img src="images/service_railway.jpg" alt="Railway Station Transfers">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jagannath Temple Darshan Spotlight -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="darshan-spotlight">
+        <div class="darshan-grid">
+          <div>
+            <span style="background: rgba(212, 160, 23, 0.2); color: var(--temple-gold); padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">SPIRITUAL PILGRIMAGE SERVICES</span>
+            <h2 style="font-size: 2.3rem; color: #FFF; margin: 1rem 0;">Shree Jagannath Temple Darshan Travel Assistance</h2>
+            <p style="color: rgba(255,255,255,0.85); font-size: 1.05rem; line-height: 1.6;">Visiting the holy abode of Lord Jagannath in Puri is a deeply sacred dream for every devotee. With over 20 years of experience, Hota Tour & Travels provides comprehensive travel coordination to make your pilgrimage seamless and stress-free.</p>
+            
+            <div class="darshan-list">
+              <div class="darshan-list-item">
+                <i class="fas fa-check-circle"></i>
+                <div><strong>Temple Visit Guidance:</strong> Knowledgeable local advice regarding temple timings, dress codes, luggage storage, and entry guidelines.</div>
+              </div>
+              <div class="darshan-list-item">
+                <i class="fas fa-check-circle"></i>
+                <div><strong>Mahaprasad Assistance:</strong> Assistance in sourcing authentic Anand Bazar Mahaprasad for your family.</div>
+              </div>
+              <div class="darshan-list-item">
+                <i class="fas fa-check-circle"></i>
+                <div><strong>Senior Citizen & Family Care:</strong> Special attention for elderly pilgrims needing comfortable local transport and minimal walking guidance.</div>
+              </div>
+              <div class="darshan-list-item">
+                <i class="fas fa-check-circle"></i>
+                <div><strong>Nearby Accommodation:</strong> Help booking hygienic hotels close to Jagannath Temple Grand Road (Bada Danda) or Puri Golden Beach.</div>
+              </div>
+            </div>
+
+            <a href="darshan.html" class="btn btn-gold"><i class="fas fa-hands-praying"></i> Explore Jagannath Darshan Services</a>
+          </div>
+          <div style="text-align: center;">
+            <img src="images/puri_temple.jpg" alt="Shree Jagannath Temple Puri Odisha" style="border-radius: var(--radius-lg); box-shadow: 0 20px 40px rgba(0,0,0,0.5); border: 3px solid var(--temple-gold);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Puri & Odisha Packages -->
+  <section class="section-padding bg-cream">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-suitcase"></i> Customized Tour Packages</span>
+        <h2 class="section-title">Popular Puri & <span>Odisha Tour Packages</span></h2>
+        <p class="section-desc">Tailor-made itineraries designed for families, couples, pilgrims, and group travelers seeking comfort, culture, and coastal beauty.</p>
+      </div>
+
+      <div class="packages-grid">
+        <!-- Package 1 -->
+        <div class="card package-card">
+          <div class="package-image">
+            <img src="images/puri_temple.jpg" alt="Puri Pilgrimage Tour Package">
+            <span class="package-badge">Pilgrimage Special</span>
+          </div>
+          <div class="package-content">
+            <h3 class="package-title">Puri Pilgrimage & Temple Tour</h3>
+            <p class="package-subtitle">Focus on Jagannath Temple Darshan, Gundicha Temple, Lokanath Temple & Mahaprasad</p>
+            <ul class="package-features">
+              <li><i class="fas fa-check-circle"></i> Temple Darshan travel assistance</li>
+              <li><i class="fas fa-check-circle"></i> Near-temple hotel accommodation</li>
+              <li><i class="fas fa-check-circle"></i> Private cab for local temple circuit</li>
+              <li><i class="fas fa-check-circle"></i> Professional tour guide assistance</li>
+            </ul>
+            <div class="package-footer">
+              <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="far fa-clock"></i> 2 Days / 1 Night</span>
+              <a href="puri-packages.html" class="btn btn-outline btn-sm">View Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 2 -->
+        <div class="card package-card">
+          <div class="package-image">
+            <img src="images/konark_temple.jpg" alt="Odisha Golden Triangle Package">
+            <span class="package-badge">Bestseller</span>
+          </div>
+          <div class="package-content">
+            <h3 class="package-title">Odisha Golden Triangle Tour</h3>
+            <p class="package-subtitle">Puri Jagannath Temple + Konark Sun Temple + Bhubaneswar Temple City</p>
+            <ul class="package-features">
+              <li><i class="fas fa-check-circle"></i> Puri Beach & Jagannath Temple</li>
+              <li><i class="fas fa-check-circle"></i> UNESCO Konark Sun Temple visit</li>
+              <li><i class="fas fa-check-circle"></i> Lingaraj, Mukteshwar & Khandagiri</li>
+              <li><i class="fas fa-check-circle"></i> Dedicated AC sedan or SUV taxi</li>
+            </ul>
+            <div class="package-footer">
+              <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="far fa-clock"></i> 3 Days / 2 Nights</span>
+              <a href="golden-triangle.html" class="btn btn-outline btn-sm">View Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="card package-card">
+          <div class="package-image">
+            <img src="images/puri_beach.jpg" alt="Puri Beach & Chilika Lake Family Tour">
+            <span class="package-badge">Family & Nature</span>
+          </div>
+          <div class="package-content">
+            <h3 class="package-title">Puri Coastal & Chilika Lake Tour</h3>
+            <p class="package-subtitle">Relaxing Puri Golden Beach stay + Chilika Lake Dolphin & Sea Mouth Excursion</p>
+            <ul class="package-features">
+              <li><i class="fas fa-check-circle"></i> Sea-view hotel / resort stay</li>
+              <li><i class="fas fa-check-circle"></i> Satapada Chilika Lake boat ride</li>
+              <li><i class="fas fa-check-circle"></i> Irrawaddy Dolphin sighting spot</li>
+              <li><i class="fas fa-check-circle"></i> Railway / Airport transfer included</li>
+            </ul>
+            <div class="package-footer">
+              <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="far fa-clock"></i> 4 Days / 3 Nights</span>
+              <a href="odisha-packages.html" class="btn btn-outline btn-sm">View Package</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Travel Services Overview -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-concierge-bell"></i> Our Services</span>
+        <h2 class="section-title">Complete Puri <span>Travel & Transport Services</span></h2>
+        <p class="section-desc">One-stop travel solutions designed to provide hassle-free movement, comfortable stays, and trusted local guidance throughout Odisha.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-hotel"></i></div>
+          <h3 class="feature-title">Hotel / Accommodation</h3>
+          <p class="feature-desc">Hygienic hotels, guest houses, and resorts booked near Jagannath Temple or Golden Beach according to your budget.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-taxi"></i></div>
+          <h3 class="feature-title">Cab & Taxi Booking</h3>
+          <p class="feature-desc">Clean AC Sedans, SUVs, and Tempo Travellers with courteous local drivers for outstation & city sightseeing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-plane-arrival"></i></div>
+          <h3 class="feature-title">Airport Transfers</h3>
+          <p class="feature-desc">Punctual pickup and drop-off services between Bhubaneswar Airport (BBI) and your hotel in Puri.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-train"></i></div>
+          <h3 class="feature-title">Railway Station Transfers</h3>
+          <p class="feature-desc">Seamless transfers from Puri Railway Station (PURI) or Bhubaneswar Railway Station straight to your accommodation.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-bus"></i></div>
+          <h3 class="feature-title">Bus Services</h3>
+          <p class="feature-desc">Intercity bus arrangements and private luxury coach bookings for large tour groups visiting Odisha.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-camera-retro"></i></div>
+          <h3 class="feature-title">Local Sightseeing Tours</h3>
+          <p class="feature-desc">Guided day tours to Konark Sun Temple, Raghurajpur Craft Village, Chilika Lake, and Bhubaneswar heritage sites.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
+          <h3 class="feature-title">Professional Tour Guide</h3>
+          <p class="feature-desc">Experienced local guides fluent in Hindi, Odia, and English to share rich historical and spiritual insights.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-ticket-alt"></i></div>
+          <h3 class="feature-title">Flight & Train Ticketing</h3>
+          <p class="feature-desc">Assistance in reserving onward train tickets and flight bookings for smooth return travel planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="section-padding bg-cream">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-star"></i> Traveler Reviews</span>
+        <h2 class="section-title">What Our Guests Say About <span>Hota Tour & Travels</span></h2>
+        <p class="section-desc">Over 1 lakh visitors have experienced Puri and Odisha with our local guidance. Here is their feedback.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"We visited Puri with my elderly parents for Jagannath Temple Darshan. Hota Tour & Travels arranged everything smoothly — from near-temple hotel to cab and guidance. Very respectful and trustworthy local team."</p>
+          <div class="review-author">
+            <div class="author-avatar">SK</div>
+            <div class="author-info">
+              <h5>Sunil K. Sharma</h5>
+              <span>Kolkata, West Bengal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Booked the Puri-Konark-Bhubaneswar 3-day tour package. The driver was very polite, car was clean, and hotel recommendations were excellent. Having their office right near the Jagannath Temple gave us great peace of mind."</p>
+          <div class="review-author">
+            <div class="author-avatar">RP</div>
+            <div class="author-info">
+              <h5>Rajesh & Priyanka Patel</h5>
+              <span>Ahmedabad, Gujarat</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Exceptional cab service and airport transfer from Bhubaneswar to Puri. Drivers are local, punctual, and safe. I recommend Hota Tour & Travels to anyone planning an Odisha trip."</p>
+          <div class="review-author">
+            <div class="author-avatar">AD</div>
+            <div class="author-info">
+              <h5>Ananya Das</h5>
+              <span>New Delhi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-question-circle"></i> Frequently Asked Questions</span>
+        <h2 class="section-title">Common Questions About <span>Puri & Odisha Travel</span></h2>
+        <p class="section-desc">Got questions about planning your Puri trip or Jagannath Temple visit? Here are helpful answers.</p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Why choose a local travel agency in Puri like Hota Tour & Travels?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Choosing a local agency based directly in Puri gives you authentic on-ground support, updated temple schedule insights, direct hotel relationships, and immediate physical assistance whenever required. With 20+ years of local operational experience, we ensure smooth coordination.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does Hota Tour & Travels assist with Jagannath Temple Darshan?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We provide comprehensive travel guidance including advice on temple timings, dress codes, shoe/phone deposit rules, Mahaprasad arrangements at Anand Bazar, and comfortable local transport to minimize walking for senior citizens.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How many days are recommended for a Puri & Odisha trip?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>A 2 to 3-day itinerary is ideal for visiting Puri Jagannath Temple, Puri Golden Beach, and Konark Sun Temple. If you wish to cover Bhubaneswar temples and Chilika Lake, a 4 to 5-day tour package is highly recommended.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Banner -->
+  <section class="section-padding bg-navy text-center" style="position: relative; background: linear-gradient(135deg, var(--deep-navy), var(--sacred-blue));">
+    <div class="container">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: #FFF;">Ready to Experience Sacred Puri & Beautiful Odisha?</h2>
+      <p style="font-size: 1.15rem; color: rgba(255,255,255,0.85); max-width: 700px; margin: 0 auto 2rem auto;">Connect with our Puri travel experts today for instant itinerary planning, cab rates, hotel availability, and Jagannath Temple Darshan travel assistance.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <button type="button" onclick="openPlanTripModal(event)" class="btn btn-primary btn-plan-trip"><i class="fas fa-calendar-check"></i> Plan Your Puri Trip Now</button>
+        <a href="tel:+917873369103" class="btn btn-gold"><i class="fas fa-phone-alt"></i> Call +91-7873369103</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="margin-bottom: 1rem; display: flex; align-items: center;">
+            <img src="images/logo.png" alt="Hota Tour & Travels Logo" style="height: 50px; width: auto;">
+          </a>
+          <p class="footer-about">Hota Tour & Travels is a trusted travel agency specializing in Puri Jagannath Temple Darshan assistance, customized Odisha tour packages, cab bookings, hotel arrangements, and professional guide services.</p>
+          <div class="footer-proof-pills">
+            <span class="proof-pill"><i class="fas fa-award"></i> 20+ Years Experience</span>
+            <span class="proof-pill"><i class="fas fa-users"></i> 1 Lakh+ Visitors</span>
+            <span class="proof-pill"><i class="fas fa-map-marker-alt"></i> Office Near Temple</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html" class="footer-link"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="puri-packages.html" class="footer-link"><i class="fas fa-chevron-right"></i> Packages</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right"></i> Our Service</a></li>
+            <li><a href="contact.html" class="footer-link"><i class="fas fa-chevron-right"></i> Contact us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Popular Pages</h4>
+          <ul class="footer-links">
+            <li><a href="reviews.html" class="footer-link"><i class="fas fa-chevron-right"></i> Customer Review</a></li>
+            <li><a href="blog.html" class="footer-link"><i class="fas fa-chevron-right"></i> Blog</a></li>
+            <li><a href="explore-puri.html" class="footer-link"><i class="fas fa-chevron-right"></i> Explore Puri</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Information</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Operating Office:</strong><br>
+              Close to Shree Jagannath Temple,<br>
+              Puri, Odisha - 752001, India
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <strong>Call / WhatsApp:</strong><br>
+              <a href="tel:+917873369103" style="color: #FFF;">+91-7873369103</a><br>
+              <a href="tel:+918917642842" style="color: #FFF;">+91-8917642842</a>
+            </div>
+          </div>
+          <div style="display: flex; gap: 0.6rem; margin-top: 0.85rem;">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hota Tour & Travels. All Rights Reserved. Puri, Odisha, India.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy & Policy</a>
+          <a href="contact.html">Terms & Conditions</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Call & WhatsApp -->
+  <div class="floating-actions">
+    <a href="https://wa.me/917873369103?text=Hello%20Hota%20Tour%20%26%20Travels" target="_blank" class="float-btn float-whatsapp" aria-label="WhatsApp Chat">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+917873369103" class="float-btn float-call" aria-label="Call Us">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

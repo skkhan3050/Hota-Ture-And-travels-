@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Service — Hota Tour & Travels | Hotel, Cab, Airport Transfer & Guides</title>
+  <meta name="description" content="Explore Our Service offerings at Hota Tour & Travels. Hotel bookings near Jagannath Temple, AC cab rentals, airport transfers, bus booking & tour guide assistance.">
+  <meta name="keywords" content="Puri travel services, Puri cab booking, Puri hotel booking near temple, Bhubaneswar airport transfer Puri, Puri taxi service">
+  <link rel="canonical" href="https://hotatourtravels.com/travel-services/">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- Top Bar Header -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-info">
+        <div class="topbar-info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Operating Office Near Shree Jagannath Temple, Puri, Odisha</span>
+        </div>
+        <div class="topbar-info-item">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+917873369103">+91-7873369103</a> / <a href="tel:+918917642842">+91-8917642842</a>
+        </div>
+      </div>
+      <div class="topbar-info">
+        <span class="topbar-badge"><i class="fas fa-list-check"></i> Complete Travel Logistics Desk</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header — Image 1 Exact Menu Layout -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 0.5rem;">
+        <img src="images/logo.png" alt="Hota Tour & Travels Logo" style="height: 54px; width: auto; object-fit: contain;">
+      </a>
+
+      <!-- EXACT MENU LIKE IMAGE 1 -->
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="puri-packages.html" class="nav-link">Packages</a>
+        <a href="services.html" class="nav-link active">Our Service</a>
+        <a href="contact.html" class="nav-link">Contact us</a>
+        <a href="reviews.html" class="nav-link">Customer Review</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="explore-puri.html" class="nav-link">Explore Puri</a>
+      </nav>
+
+      <div class="nav-cta">
+        <button type="button" onclick="openPlanTripModal(event)" class="btn btn-primary btn-sm btn-plan-trip"><i class="fas fa-calendar-check"></i> Plan Your Puri Trip</button>
+        <button class="hamburger" id="hamburgerToggle" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Our Service</span>
+      </div>
+      <h1 class="page-hero-title">Our Service</h1>
+      <p class="page-hero-subtitle">From verified hotel bookings near Jagannath Temple to clean AC cab rentals, airport pick-ups, bus services, local guides, and ticketing support.</p>
+    </div>
+  </section>
+
+  <!-- Main Services Grid Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-cogs"></i> Professional Travel Solutions</span>
+        <h2 class="section-title">Explore <span>Our Service Offerings</span></h2>
+        <p class="section-desc">Select the exact service you need for your trip to Puri and Odisha.</p>
+      </div>
+
+      <!-- Service 1: Hotel Booking -->
+      <div class="service-block" id="hotel-booking">
+        <div class="service-block-content">
+          <div>
+            <div class="service-block-header">
+              <div class="service-block-icon"><i class="fas fa-hotel"></i></div>
+              <div class="service-block-title">
+                <h3>1. Hotel & Accommodation Booking Assistance</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Finding a hygienic, comfortable hotel close to Shree Jagannath Temple or Puri Golden Beach is essential for a peaceful stay. We partner with verified budget hotels, family lodges, luxury resorts, and dharamshalas across Puri.</p>
+            
+            <div class="service-benefits-grid">
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Prime Locations:</strong> Stays near Grand Road (Bada Danda) or Sea Beach.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Hygienic & Verified:</strong> Clean rooms with AC, hot water, and lift facilities.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Suitable For:</strong> Devotees, families with kids, and senior citizens.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Honest Guidance:</strong> Direct local rates with transparent booking process.</div></div>
+            </div>
+            <button type="button" onclick="openPlanTripModal(event)" class="btn btn-outline btn-sm btn-plan-trip" style="margin-top: 1rem;">Book Hotel in Puri</button>
+          </div>
+          <div class="service-block-img">
+            <img src="images/service_hotel.jpg" alt="Hotel Booking Assistance Puri">
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2: Cab & Taxi Booking -->
+      <div class="service-block" id="cab-booking">
+        <div class="service-block-content">
+          <div>
+            <div class="service-block-header">
+              <div class="service-block-icon"><i class="fas fa-taxi"></i></div>
+              <div class="service-block-title">
+                <h3>2. Cab & Taxi Booking Services</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Travel comfortably across Puri, Konark, Bhubaneswar, and Chilika in clean, air-conditioned private vehicles driven by experienced, polite local drivers who know the routes thoroughly.</p>
+
+            <div class="service-benefits-grid">
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Fleet Options:</strong> AC Swift Dzire, Etios, Ertiga, Innova Crysta & Tempo Traveller.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Point-to-Point & Hourly Rentals:</strong> Available for city tour or outstation trips.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Safety & Punctuality:</strong> Courteous, verified local drivers familiar with routes.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Transparent Pricing:</strong> All-inclusive fuel, toll, and driver allowance quotes.</div></div>
+            </div>
+            <button type="button" onclick="openPlanTripModal(event)" class="btn btn-outline btn-sm btn-plan-trip" style="margin-top: 1rem;">Reserve Cab / Taxi</button>
+          </div>
+          <div class="service-block-img">
+            <img src="images/service_cab.jpg" alt="Cab Taxi Booking Services Puri">
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3: Bus Services -->
+      <div class="service-block" id="bus-services">
+        <div class="service-block-content">
+          <div>
+            <div class="service-block-header">
+              <div class="service-block-icon"><i class="fas fa-bus"></i></div>
+              <div class="service-block-title">
+                <h3>3. Group Bus & Coach Services</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Travelling with a large pilgrim group, family sangha, or corporate team? We provide private AC mini-buses and luxury coaches (26-seater, 35-seater, 45-seater) for group tours across Odisha.</p>
+            
+            <div class="service-benefits-grid">
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Large Seating Capacities:</strong> 17-seater Tempo, 26-seater Mini Bus & 45-seater Luxury Coaches.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>AC Comfort & Luggage Space:</strong> Push-back seats with ample luggage boots.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Group Tour Coordination:</strong> Complete itinerary & temple darshan coordination.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Professional Staff:</strong> Experienced long-route drivers & polite helpers.</div></div>
+            </div>
+            <button type="button" onclick="openPlanTripModal(event)" class="btn btn-outline btn-sm btn-plan-trip" style="margin-top: 1rem;">Book Bus / Coach</button>
+          </div>
+          <div class="service-block-img">
+            <img src="images/service_bus.jpg" alt="Group Bus Coach Services Puri">
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4 & 5: Transfers -->
+      <div class="service-block" id="transfers">
+        <div class="service-block-content">
+          <div>
+            <div class="service-block-header">
+              <div class="service-block-icon"><i class="fas fa-plane-arrival"></i></div>
+              <div class="service-block-title">
+                <h3>4 & 5. Airport & Railway Station Transfers</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Hassle-free 24/7 pick-up and drop-off transfers between Biju Patnaik International Airport (Bhubaneswar) / Bhubaneswar Railway Station (BBS) / Puri Railway Station (PURI) and your hotel in Puri.</p>
+
+            <div class="service-benefits-grid">
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>24/7 Availability:</strong> On-time pickup for early morning or late night flights/trains.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Flight & Train Tracking:</strong> Drivers monitor schedule delays for smooth pick-up.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Door-to-Door Comfort:</strong> Direct transfer straight to your hotel reception.</div></div>
+              <div class="benefit-item"><i class="fas fa-check-circle"></i> <div><strong>Fixed Fixed Rates:</strong> No surge pricing or hidden midnight charges.</div></div>
+            </div>
+            <button type="button" onclick="openPlanTripModal(event)" class="btn btn-outline btn-sm btn-plan-trip" style="margin-top: 1rem;">Book Transfer Taxi</button>
+          </div>
+          <div class="service-block-img">
+            <img src="images/service_transfer.jpg" alt="Airport Railway Station Transfers Puri">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="margin-bottom: 1rem; display: flex; align-items: center;">
+            <img src="images/logo.png" alt="Hota Tour & Travels Logo" style="height: 50px; width: auto;">
+          </a>
+          <p class="footer-about">Hota Tour & Travels is a trusted travel agency specializing in Puri Jagannath Temple Darshan assistance, customized Odisha tour packages, cab bookings, hotel arrangements, and professional guide services.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html" class="footer-link"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="puri-packages.html" class="footer-link"><i class="fas fa-chevron-right"></i> Packages</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right"></i> Our Service</a></li>
+            <li><a href="contact.html" class="footer-link"><i class="fas fa-chevron-right"></i> Contact us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Popular Pages</h4>
+          <ul class="footer-links">
+            <li><a href="reviews.html" class="footer-link"><i class="fas fa-chevron-right"></i> Customer Review</a></li>
+            <li><a href="blog.html" class="footer-link"><i class="fas fa-chevron-right"></i> Blog</a></li>
+            <li><a href="explore-puri.html" class="footer-link"><i class="fas fa-chevron-right"></i> Explore Puri</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Information</h4>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i> Close to Shree Jagannath Temple, Puri</div>
+          <div class="footer-contact-item"><i class="fas fa-phone-alt"></i> <a href="tel:+917873369103" style="color: #FFF;">+91-7873369103</a></div>
+          <div style="display: flex; gap: 0.6rem; margin-top: 0.85rem;">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hota Tour & Travels. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy & Policy</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="https://wa.me/917873369103?text=Hello%20Hota%20Tour%20%26%20Travels" target="_blank" class="float-btn float-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:+917873369103" class="float-btn float-call"><i class="fas fa-phone-alt"></i></a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

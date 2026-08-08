@@ -1,0 +1,406 @@
+/* ==========================================================================
+   INNER PAGES STYLES — HOTA TOUR & TRAVELS
+   ========================================================================== */
+
+/* Inner Page Layout Containers */
+.page-layout {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Sidebar Components */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar-card {
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+}
+
+.sidebar-title {
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35px;
+  height: 3px;
+  background: var(--primary-saffron);
+  border-radius: 2px;
+}
+
+.sidebar-cta-box {
+  background: linear-gradient(135deg, var(--deep-navy), var(--sacred-blue));
+  color: #FFF;
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.sidebar-cta-box h4 {
+  color: #FFF;
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-cta-box p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Service Detail Block */
+.service-block {
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  scroll-margin-top: 100px;
+}
+
+.service-block-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-block-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  background: var(--saffron-light);
+  color: var(--primary-saffron);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  flex-shrink: 0;
+}
+
+.service-block-title h3 {
+  font-size: 1.5rem;
+  color: var(--deep-navy);
+}
+
+.service-benefits-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin: 1.25rem 0;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.benefit-item i {
+  color: var(--primary-saffron);
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+
+/* Service Block 2-Column Grid (Text Left, Photo Right) */
+.service-block-content {
+  display: grid;
+  grid-template-columns: 1fr 460px;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .service-block-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service-block-img {
+  width: 100%;
+  max-width: 460px;
+  height: 310px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(15, 27, 45, 0.14);
+  position: relative;
+  justify-self: end;
+}
+
+@media (max-width: 992px) {
+  .service-block-img {
+    justify-self: center;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 1.5rem;
+  }
+}
+
+.service-block-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.service-block:hover .service-block-img img {
+  transform: scale(1.08);
+}
+
+/* Page Hero Header Component */
+.page-hero {
+  background: linear-gradient(rgba(15, 27, 45, 0.85), rgba(15, 27, 45, 0.92)), url('../images/puri_temple.jpg') center/cover no-repeat;
+  color: #FFFFFF;
+  padding: 4.5rem 0 3.5rem 0;
+  position: relative;
+}
+
+.page-hero-content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--temple-gold);
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.breadcrumb a:hover {
+  color: #FFF;
+}
+
+.page-hero-title {
+  font-size: 3rem;
+  color: #FFFFFF;
+  margin-bottom: 0.75rem;
+}
+
+.page-hero-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .page-hero-title { font-size: 2.2rem; }
+  .page-hero-subtitle { font-size: 0.95rem; }
+}
+
+/* ==========================================================================
+   CONTACT PAGE SIDE-BY-SIDE GRID
+   ========================================================================== */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-info-card {
+  background: var(--deep-navy);
+  color: #FFF;
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  box-shadow: var(--shadow-md);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-info-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 107, 0, 0.2);
+  color: var(--primary-saffron);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.contact-info-text h5 {
+  color: #FFF;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-info-text p, .contact-info-text a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   ODISHA DESTINATIONS SECTION — REFERENCE DESIGN LAYOUT
+   ========================================================================== */
+.dest-section-title {
+  font-size: 2.5rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  color: var(--deep-navy);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.dest-section-title::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: var(--primary-saffron);
+  margin: 0.6rem auto 0 auto;
+  border-radius: 2px;
+}
+
+.dest-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+@media (max-width: 992px) {
+  .dest-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .dest-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dest-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15, 27, 45, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.dest-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(15, 27, 45, 0.16);
+  border-color: rgba(255, 107, 0, 0.35);
+}
+
+.dest-card-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.dest-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.dest-card:hover .dest-card-img img {
+  transform: scale(1.1);
+}
+
+.dest-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: #FFFFFF;
+}
+
+.dest-card-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--deep-navy);
+  margin-bottom: 0.5rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.dest-card-text {
+  font-size: 0.9rem;
+  color: #4B5563;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.dest-card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.dest-card-link {
+  color: #FF5722;
+  font-weight: 700;
+  font-size: 0.925rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.dest-card-link:hover {
+  color: #E64A19;
+  transform: translateX(5px);
+}
