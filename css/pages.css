@@ -404,3 +404,44 @@
   color: #E64A19;
   transform: translateX(5px);
 }
+
+/* Mobile Responsive Overrides for Inner Pages */
+@media (max-width: 992px) {
+  .dest-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .dest-card-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .dest-card-img {
+    height: 180px;
+  }
+
+  .dest-card-body {
+    padding: 1.15rem;
+  }
+
+  .dest-section-title {
+    font-size: 1.85rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .page-hero {
+    padding: 3rem 0 2.5rem 0;
+  }
+
+  .page-hero-title {
+    font-size: 2rem;
+  }
+
+  .service-block {
+    padding: 1.5rem 1.15rem;
+    margin-bottom: 1.75rem;
+  }
+}
