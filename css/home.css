@@ -149,6 +149,36 @@
   .darshan-spotlight { padding: 2rem; }
 }
 
+.darshan-img-wrapper {
+  width: 100%;
+  max-width: 500px;
+  height: 340px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border: 3px solid var(--temple-gold);
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .darshan-spotlight {
+    padding: 1.5rem 1.15rem;
+  }
+  .darshan-img-wrapper {
+    height: 220px;
+    margin-top: 1.5rem;
+    max-width: 100%;
+  }
+}
+
+.darshan-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
 .darshan-list {
   display: flex;
   flex-direction: column;
