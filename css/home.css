@@ -8,7 +8,7 @@
   min-height: 88vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(15, 27, 45, 0.75), rgba(15, 27, 45, 0.85)), url('../images/puri_temple.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(15, 27, 45, 0.32), rgba(15, 27, 45, 0.52)), url('../images/puri_temple.jpg') center/cover no-repeat;
   color: #FFFFFF;
   padding: 4rem 0;
   overflow: hidden;

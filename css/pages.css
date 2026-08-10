@@ -173,7 +173,7 @@
 
 /* Page Hero Header Component */
 .page-hero {
-  background: linear-gradient(rgba(15, 27, 45, 0.85), rgba(15, 27, 45, 0.92)), url('../images/puri_temple.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(15, 27, 45, 0.35), rgba(15, 27, 45, 0.55)), url('../images/puri_temple.jpg') center/cover no-repeat;
   color: #FFFFFF;
   padding: 4.5rem 0 3.5rem 0;
   position: relative;
